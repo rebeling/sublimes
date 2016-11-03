@@ -1,0 +1,12 @@
+<snippet>
+	<tabTrigger>def</tabTrigger>
+	<scope>source.python</scope>
+	<description>Function</description>
+	<content><![CDATA[def ${1:function}($2):
+    """${3:docstring}
+
+    >>> ${1:function}($4)
+    ${5: expected_result}
+    """
+	${0:pass}]]></content>
+</snippet>

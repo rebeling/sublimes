@@ -1,0 +1,7 @@
+<snippet>
+    <tabTrigger>doctest</tabTrigger>
+    <scope>source.python</scope>
+    <description>Import doctest</description>
+    <content><![CDATA[import doctest
+doctest.testmod()]]></content>
+</snippet>
